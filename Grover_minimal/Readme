@@ -1,0 +1,20 @@
+# Grover Search using Qiskit
+
+Implementation of Grover's quantum search algorithm.
+
+## What it does
+Searches for a marked state in an unsorted database of size 2^n.
+
+Provides quadratic speedup over classical brute force search.
+
+## Installation
+
+pip install -r requirements.txt
+
+## Run
+
+python grover.py
+
+## Example
+
+Search for state "101" using 3 qubits.
